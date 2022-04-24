@@ -8,8 +8,11 @@
     --light-grey-transparent: #f1f1f170;
     --white: #fff;
     --black: #000;
+    --black-50: #00000080;
+    --black-25: #00000040;
     --dark-grey: #2c3135;
     --maroon-shade: #b11942;
+    --maroon-shade-darker: #8E1435;
     --green: #118102;
 }
 
@@ -61,7 +64,7 @@ a {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #00000080;
+    background: var(--black-50);
 }
 
 .monthly-favorites-container {}
@@ -74,7 +77,8 @@ a {
 .block-divider {
     width: 7.5rem;
     height: 5px;
-    border: 0;    
+    border: 0;  
+    margin: 0 auto;  
 }
 
 .block-divider-maroon-shade {
@@ -85,6 +89,37 @@ a {
     width: 3.5rem;
 }
 
+/* Navbar */
+
+.navalert-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background: var(--black-25);    
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 700;
+}
+
+
 /* Jumbotron */
 
 .jumbotron {
@@ -93,7 +128,7 @@ a {
 
 .jumbotron-header {
     color: var(--white);
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 3rem;
 }
 
@@ -105,4 +140,25 @@ a {
 .jumbotron small {
     font-style: italic;
     color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: 700;
+    border-radius: 2.3rem;
+    width: 16rem;
+}
+
+.btn--maroon-shade {
+    color: var(--white);
+    background: var(--maroon-shade);
+}
+
+.btn--maroon-shade:hover,
+.btn--maroon-shade:active,
+.btn--maroon-shade:focus,
+.btn--maroon-shade:active:focus{
+    background: var(--maroon-shade-darker);
+    
 }
