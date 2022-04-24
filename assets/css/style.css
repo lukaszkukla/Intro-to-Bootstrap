@@ -14,6 +14,7 @@
     --maroon-shade: #b11942;
     --maroon-shade-darker: #8E1435;
     --green: #118102;
+    --mustard-alert: #eec802;
 }
 
 /* global styles */
@@ -41,7 +42,20 @@ a {
     text-decoration: none;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 1.5rem;
+    border: 0;
+    background: var(--mustard-alert);
+}
+
+.site
 
 .callout-container {
     height: 100vh;
