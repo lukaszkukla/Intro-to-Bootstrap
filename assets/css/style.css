@@ -51,6 +51,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #00000080;
 }
 
 .monthly-favorites-container {}
@@ -58,3 +69,40 @@ a {
 .quotes-container {}
 
 .features-container {}
+
+/* Block dividers */
+.block-divider {
+    width: 7.5rem;
+    height: 5px;
+    border: 0;    
+}
+
+.block-divider-maroon-shade {
+    background: var(--maroon-shade);
+}
+
+.block-divider-short {
+    width: 3.5rem;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.jumbotron .lead {
+    margin: 2.5rem 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-style: italic;
+    color: #d0d0d0;
+}
