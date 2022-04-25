@@ -10,6 +10,7 @@
     --black: #000;
     --black-50: #00000080;
     --black-25: #00000040;
+    --navbar-dark: #0c0c0c;
     --dark-grey: #2c3135;
     --maroon-shade: #b11942;
     --maroon-shade-darker: #8E1435;
@@ -135,7 +136,7 @@ a {
 /* Navbar */
 
 .navalert-container{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -147,7 +148,7 @@ a {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background: var(--black-25);    
+    background: var(--navbar-dark);    
 }
 
 .navbar .navbar-toggler {
