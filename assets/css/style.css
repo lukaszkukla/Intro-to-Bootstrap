@@ -62,8 +62,6 @@ a {
     background: var(--mustard-alert);
 }
 
-.site
-
 .callout-container {
     height: 100vh;
     background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed;
