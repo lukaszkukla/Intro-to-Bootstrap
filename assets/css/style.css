@@ -119,6 +119,10 @@ a {
     background: var(--maroon-shade);
 }
 
+.block-divider--white {
+    background: var(--white);
+}
+
 .block-divider-short {
     width: 3.5rem;
 }
@@ -202,4 +206,9 @@ a {
 .btn--maroon-shade:active:focus{
     background: var(--maroon-shade-darker);
     
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 4rem;
 }
