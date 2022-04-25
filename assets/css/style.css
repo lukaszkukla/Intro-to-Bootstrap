@@ -38,6 +38,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--maroon-shade {
+    background: var(--maroon-shade);
+    color: var(--white);
+}
+
 a {
     text-decoration: none;
 }
