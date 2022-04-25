@@ -210,3 +210,18 @@ a {
     text-align: center;
     margin-bottom: 4rem;
 }
+
+.feature i {
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.feature .btn {
+    background: var(--white);
+    border-radius: 1.5rem;
+    min-width: 10rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: var(--maroon-shade);
+}
