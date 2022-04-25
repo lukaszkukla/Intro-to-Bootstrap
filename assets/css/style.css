@@ -116,6 +116,13 @@ a {
     width: 3.5rem;
 }
 
+/* Content containers */
+
+.content-container {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
 /* Navbar */
 
 .navalert-container{
