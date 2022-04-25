@@ -88,10 +88,6 @@ a {
 
 .monthly-favorites-container {}
 
-.quotes-container {}
-
-.features-container {}
-
 /* Page headers */
 
 .page-header {
@@ -102,6 +98,10 @@ a {
 
 .page-header h2 {
     margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 2.5rem;
 }
 
 /* Block dividers */
@@ -135,7 +135,7 @@ a {
 /* Navbar */
 
 .navalert-container{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     padding-left: 0;
