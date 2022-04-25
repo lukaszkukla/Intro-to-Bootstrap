@@ -114,7 +114,7 @@ a {
     background: var(--dark-grey);
 }
 
-.block-divider-maroon-shade {
+.block-divider--maroon-shade {
     background: var(--maroon-shade);
 }
 
