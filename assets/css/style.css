@@ -213,15 +213,17 @@ a {
 
 .feature i {
     margin-bottom: 2rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 4.5rem;
 }
 
 .feature .btn {
     background: var(--white);
+    color: var(--maroon-shade);
     border-radius: 1.5rem;
     min-width: 10rem;
+    min-height: 3rem;
     font-weight: 700;
-    margin-top: 1rem;
-    color: var(--maroon-shade);
+    margin-top: 1rem;    
+    font-size: 1.2rem;
 }
